@@ -1,0 +1,168 @@
+
+html{
+    padding: 5% 5%;
+}
+
+html h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+    color: hsl(234, 12%, 34%);
+    text-align: center;
+    margin: 10px;
+}
+
+h1 span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+
+html h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: hsl(234, 12%, 34%);
+}
+
+
+html p{
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+}
+
+html .card{
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+.row.main-row{
+    margin-top: 80px;
+}
+
+.card-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    color: hsl(229, 6%, 66%);
+    text-align: left;
+    margin: 0;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+/* card section  */
+
+
+
+
+
+
+
+
+.card .card-top{
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 5px;
+    
+}
+
+.card .card-img{
+    text-align: right;
+    margin: 20px 10px 5px 0;
+    width: 90%;
+}
+
+.card-half{
+    position: relative;
+    top: 50%;
+}
+
+.card1 .card-top{
+    background-color: hsl(180, 62%, 55%);
+    top: 50%;
+}
+
+.card2 .card-top{
+    background-color:  hsl(0, 78%, 62%);
+}
+
+.card3 .card-top{
+    background-color: hsl(34, 97%, 64%);
+}
+
+.card4 .card-top{
+    background-color: hsl(212, 86%, 64%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive */
+
+
+
+@media(max-width:1020px){
+
+    html h1{
+        font-size: 1.5rem;
+    }
+    
+    html p{
+        width: 90%;
+    }
+
+    .row.main-row{
+        margin-top: 40px;
+    }
+
+
+    .card{
+        width: 95%;
+        margin-bottom: 25px ;
+    }
+
+    .card-half{
+        position: static;
+        top: 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
